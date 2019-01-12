@@ -1,4 +1,4 @@
-Requestingdataforconnections{
+{
 "type" : "timeInterval",
 "FST" : "111",
 "LST" : "222",
