@@ -11,7 +11,8 @@
 <script>
 	var header = document.querySelector('header');
 var section = document.querySelector('section');
-	var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+	//var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+	var requestURL = 'https://jpngapp.github.io/JSONREPOSITORY/sampleJSONData.txt';
 	var request = new XMLHttpRequest();
 	request.open('GET', requestURL);
 	request.responseType = 'text';
@@ -21,15 +22,15 @@ var section = document.querySelector('section');
 	  var superHeroesText = request.response; // get the string from the response
 	  var superHeroes = JSON.parse(superHeroesText); // convert it to an object
 	  populateHeader(superHeroes);
-	  showHeroes(superHeroes);
+	  //showHeroes(superHeroes);
 	}
 	function populateHeader(jsonObj) {
 	  var myH1 = document.createElement('h1');
-	  myH1.textContent = jsonObj['squadName'];
+	  myH1.textContent = jsonObj['type'];
 	  header.appendChild(myH1);
 
 	  var myPara = document.createElement('p');
-	  myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
+	  myPara.textContent = 'Hometown: ' + jsonObj['type'] + ' // Formed: ' + jsonObj['type'];
 	  header.appendChild(myPara);
 	}
 	function showHeroes(jsonObj) {
