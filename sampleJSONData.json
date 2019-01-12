@@ -1,0 +1,35 @@
+{
+"type" : "timeInterval",
+"FST" : "111",
+"LST" : "222",
+"rateScale" : "none",
+"statistic" : "avg",
+"metric" : {
+	"type" : "continousValued",
+	"id" : "connections",
+	"name":"LDAP",
+	"shortName":"LDAP Connection",
+	"description":"Num",
+	"group" : "LDAP",
+	"advanced" : "false",
+	"valueUnit":{
+		"SN":"conn",
+		"PN":"conns",
+		"abbv":"con"
+	},
+	"instanceTypes":["ds","proxy"],
+	"statistics":["avg"]
+},
+"minValue":"10",
+"maxValue":"99",
+"seriesLimit":0,
+"sourceResolution" : "90s",
+"series":[{
+	"label" : "AAAAA",
+	"data": [1.0,2.0],
+	"lastCompleteIndex":99,
+	"minValue":1.99,
+	"maxValue":27.00
+}],
+"resolutionInSeconds":2000
+}
