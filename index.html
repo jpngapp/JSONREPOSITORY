@@ -30,7 +30,7 @@ var section = document.querySelector('section');
 	  header.appendChild(myH1);
 
 	  var myPara = document.createElement('p');
-	  myPara.textContent = 'Hometown: ' + jsonObj['type'] + ' // Formed: ' + jsonObj['type'];
+	  myPara.textContent = 'Output Format: <br/>'+ 'LABEL: ' + jsonObj['minValue'] + '<br/>minValue: ' + jsonObj['minValue'];
 	  header.appendChild(myPara);
 	}
 	function showHeroes(jsonObj) {
