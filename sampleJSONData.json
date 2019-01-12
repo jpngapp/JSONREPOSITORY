@@ -1,1 +1,60 @@
-{"type" : "timeInterval","firstSampleTime" : "1546623840000","lastSampleTime" : "1546688040000","rateScaling" : "NONE","statistic" : "AVERAGE","metric" : {"type":"continuousValued","id":"connections"},"minValue":"10","maxValue":"99","seriesLimit":0,"series":[{"label" : "ivapp1186975.devin1.ms.com-ppx-poc","data": [1.0,2.0],"lastCompleteIndex":99,"minValue":1.99,"maxValue":27.00}],"minValue":1.99,"maxValue":27.00,"sourceResolution" : "90s","resolutionInSeconds":2000}
+[
+"dummyData":{
+   "type":"timeInterval",
+   "firstSampleTime":"1546623840000",
+   "lastSampleTime":"1546688040000",
+   "rateScaling":"NONE",
+   "statistic":"AVERAGE",
+   "metric":{  
+      "type":"continuousValued",
+      "id":"connections"
+   },
+   "minValue":"10",
+   "maxValue":"99",
+   "seriesLimit":0,
+   "series":[  
+      {  
+         "label":"ivapp1186975.devin1.ms.com-ppx-poc",
+         "data":[  
+            1.0,2.0
+         ],
+         "lastCompleteIndex":99,
+         "minValue":1.99,
+         "maxValue":27.00
+      }
+   ],
+   "minValue":1.99,
+   "maxValue":27.00,
+   "sourceResolution":"90s",
+   "resolutionInSeconds":2000
+}},[
+"dummyData":{
+   "type":"timeInterval",
+   "firstSampleTime":"1546623840000",
+   "lastSampleTime":"1546688040000",
+   "rateScaling":"NONE",
+   "statistic":"AVERAGE",
+   "metric":{  
+      "type":"continuousValued",
+      "id":"connections"
+   },
+   "minValue":"10",
+   "maxValue":"99",
+   "seriesLimit":0,
+   "series":[  
+      {  
+         "label":"ivapp1186975.devin1.ms.com-ppx-poc",
+         "data":[  
+            1.0,2.0
+         ],
+         "lastCompleteIndex":99,
+         "minValue":1.99,
+         "maxValue":27.00
+      }
+   ],
+   "minValue":1.99,
+   "maxValue":27.00,
+   "sourceResolution":"90s",
+   "resolutionInSeconds":2000
+}
+]

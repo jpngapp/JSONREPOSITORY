@@ -25,13 +25,23 @@ var section = document.querySelector('section');
 	  //showHeroes(superHeroes);
 	}
 	function populateHeader(jsonObj) {
+	  var myMain = jsonObj['dummyData'];
 	  var myH1 = document.createElement('h1');
-	  myH1.textContent = jsonObj['type'];
+	  myH1.textContent = "Output Format:";
 	  header.appendChild(myH1);
 
-	  var myPara = document.createElement('p');
-	  myPara.textContent = 'Output Format: <br/>'+ 'LABEL: ' + jsonObj['minValue'] + '<br/>minValue: ' + jsonObj['minValue'];
-	  header.appendChild(myPara);
+	  var myPara1 = document.createElement('p');
+	  var myPara2 = document.createElement('p');
+	  var myPara3 = document.createElement('p');
+	  var series = jsonObj['series'];
+	  myPara1.textContent = 'LABEL: '+ series[0].label;
+	  myPara2.textContent = 'MINVALUE: ' + jsonObj['minValue'];
+	  myPara3.textContent = 'MAXVALUE: ' + jsonObj['maxValue'];
+	  var myArticle = document.createElement('article');
+	  myArticle.appendChild(myPara1);
+	  myArticle.appendChild(myPara2);
+	  myArticle.appendChild(myPara3);
+	  header.appendChild(myArticle);
 	}
 	function showHeroes(jsonObj) {
 	  var heroes = jsonObj['members'];
