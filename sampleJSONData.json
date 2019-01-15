@@ -20,6 +20,24 @@
          "lastCompleteIndex":99,
          "minValue":1.99,
          "maxValue":27.00
+      },
+	  {  
+         "label":"Sample Label 2",
+         "data":[  
+            1.0,2.0
+         ],
+         "lastCompleteIndex":99,
+         "minValue":3,
+         "maxValue":4
+      },
+	  {  
+         "label":"Sample Label 3",
+         "data":[  
+            1.0,2.0
+         ],
+         "lastCompleteIndex":99,
+         "minValue":5,
+         "maxValue":6
       }
    ],
    "minValue":1.99,
